@@ -9,6 +9,14 @@ Test Practikal Fullstack Programmer
 ```
 npm install
 ```
+- Migrate database
+```
+npx knex migrate:latest 
+```
+- Seed data to table
+```
+npx knex seed:run
+```
 - Run this command to pull .env file
 ```
 npx dotenv-vault@latest pull
@@ -18,7 +26,7 @@ npx dotenv-vault@latest pull
 ```
 npm run dev
 ```
--- OR
+- OR
 ```
 npm run start
 ```
