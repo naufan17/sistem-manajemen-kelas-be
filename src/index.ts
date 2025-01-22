@@ -1,6 +1,7 @@
 import express, { Express } from "express";
 import cors from "cors";
 import morgan from "morgan";
+import "./configs/database";
 
 const port: number = Number(process.env.PORT) || 8000;
 const app: Express = express();
